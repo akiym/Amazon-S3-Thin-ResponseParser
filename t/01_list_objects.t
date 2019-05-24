@@ -27,7 +27,6 @@ subtest 'Example 1: Listing Keys' => sub {
 </ListBucketResult>
 XML
     is $error, undef;
-    use Data::Dumper; warn Data::Dumper->new([$list_objects])->Indent(1)->Sortkeys(1)->Useqq(1)->Maxdepth(6)->Dump;
 
     is_deeply $list_objects, {
         contents                => [
