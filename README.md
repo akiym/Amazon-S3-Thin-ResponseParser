@@ -41,10 +41,10 @@ This module provides a helper for the `list_objects` API which provide by [Amazo
 - ($list\_objects, $error) = $response\_parser->list\_objects($content);
 
     This takes an XML response as `$content` and it will return a list of objects and an error if the `$content` has
-    [Error Responses ](https://metacpan.org/pod/&#x20;https:#docs.aws.amazon.com-AmazonS3-latest-API-ErrorResponses.html).
+    [Error Responses](https://docs.aws.amazon.com/AmazonS3/latest/API/ErrorResponses.html).
     The `$content` should be valid XML formed
-    [GET Bucket (List Objects) Version 2 ](https://metacpan.org/pod/&#x20;https:#docs.aws.amazon.com-AmazonS3-latest-API-v2-RESTBucketGET.html) or
-    [GET Bucket (List Objects) Version 1 ](https://metacpan.org/pod/&#x20;https:#docs.aws.amazon.com-AmazonS3-latest-API-RESTBucketGET.html).
+    [GET Bucket (List Objects) Version 2](https://docs.aws.amazon.com/AmazonS3/latest/API/v2-RESTBucketGET.html) or
+    [GET Bucket (List Objects) Version 1](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketGET.html).
 
     `$list_objects` is a hashref that looks like following form. undef is returned if there is the `$error`.
 

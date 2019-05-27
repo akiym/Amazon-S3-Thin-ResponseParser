@@ -146,10 +146,10 @@ The C<$xml> should be an instance of L<XML::LibXML>.
 =item ($list_objects, $error) = $response_parser->list_objects($content);
 
 This takes an XML response as C<$content> and it will return a list of objects and an error if the C<$content> has
-L<< Error Responses | https://docs.aws.amazon.com/AmazonS3/latest/API/ErrorResponses.html >>.
+L<< Error Responses|https://docs.aws.amazon.com/AmazonS3/latest/API/ErrorResponses.html >>.
 The C<$content> should be valid XML formed
-L<< GET Bucket (List Objects) Version 2 | https://docs.aws.amazon.com/AmazonS3/latest/API/v2-RESTBucketGET.html >> or
-L<< GET Bucket (List Objects) Version 1 | https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketGET.html >>.
+L<< GET Bucket (List Objects) Version 2|https://docs.aws.amazon.com/AmazonS3/latest/API/v2-RESTBucketGET.html >> or
+L<< GET Bucket (List Objects) Version 1|https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketGET.html >>.
 
 C<$list_objects> is a hashref that looks like following form. undef is returned if there is the C<$error>.
 

@@ -55,13 +55,13 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/akiym/Amazon-S3-Thin-ResponseParser/issues"
+         "web" : "https://github.com/hatena/Amazon-S3-Thin-ResponseParser/issues"
       },
-      "homepage" : "https://github.com/akiym/Amazon-S3-Thin-ResponseParser",
+      "homepage" : "https://github.com/hatena/Amazon-S3-Thin-ResponseParser",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/akiym/Amazon-S3-Thin-ResponseParser.git",
-         "web" : "https://github.com/akiym/Amazon-S3-Thin-ResponseParser"
+         "url" : "git://github.com/hatena/Amazon-S3-Thin-ResponseParser.git",
+         "web" : "https://github.com/hatena/Amazon-S3-Thin-ResponseParser"
       }
    },
    "version" : "0.01",
