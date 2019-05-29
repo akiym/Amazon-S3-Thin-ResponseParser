@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/hatena/Amazon-S3-Thin-ResponseParser.svg?branch=master)](https://travis-ci.com/hatena/Amazon-S3-Thin-ResponseParser)
 # NAME
 
 Amazon::S3::Thin::ResponseParser - A parser for S3 XML responses
