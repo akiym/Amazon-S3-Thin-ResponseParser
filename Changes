@@ -2,6 +2,8 @@ Revision history for Perl extension Amazon-S3-Thin-ResponseParser
 
 {{$NEXT}}
 
+    - Add error() method to parse error response from s3
+
 0.02 2019-05-27T03:21:16Z
 
     - Fix broken links in POD
