@@ -4,7 +4,7 @@ use warnings;
 use XML::LibXML;
 use XML::LibXML::XPathContext;
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 sub new {
     my ($class, %args) = @_;
